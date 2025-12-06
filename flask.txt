@@ -1,0 +1,7 @@
+flask
+flask-cors
+requests
+pillow
+numpy
+tensorflow
+huggingface_hub
