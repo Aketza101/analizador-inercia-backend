@@ -8,7 +8,7 @@ from flask_cors import CORS
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
-from huggingface_hub import from_pretrained_keras
+from keras_core.models import load_model # Nueva forma de importar modelos
 
 app = Flask(__name__)
 CORS(app)
@@ -114,3 +114,4 @@ if __name__ == '__main__':
     except:
         pass # Will retry on request
     app.run(debug=True, host='0.0.0.0', port=5000)
+
