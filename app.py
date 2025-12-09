@@ -13,7 +13,7 @@ from keras_core.models import load_model # Nueva forma de importar modelos
 app = Flask(__name__)
 CORS(app)
 
-MODEL_ID = "alexanderkroner/MSI-Net"
+MODEL_ID = "alexanderkroner/MobileNetV2-Saliency"
 _model = None
 
 def get_model():
@@ -114,4 +114,5 @@ if __name__ == '__main__':
     except:
         pass # Will retry on request
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 
