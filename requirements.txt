@@ -6,3 +6,5 @@ numpy
 tensorflow
 huggingface_hub
 gunicorn
+keras-core
+keras-cv
