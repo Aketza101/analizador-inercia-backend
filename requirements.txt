@@ -5,3 +5,4 @@ pillow
 numpy
 tensorflow
 huggingface_hub
+gunicorn
