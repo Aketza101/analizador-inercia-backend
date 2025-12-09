@@ -4,8 +4,9 @@ requests
 Pillow
 numpy
 gunicorn
-tensorflow==2.15.0
+tensorflow 
 huggingface_hub
 keras-core
 keras-cv
+
 
